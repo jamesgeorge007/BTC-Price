@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "dev": "next",
-      "build": "next build",
-      "start": "next start"
-    },
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "keywords": [],
   "author": "James George",
   "license": "ISC",
   "dependencies": {
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"

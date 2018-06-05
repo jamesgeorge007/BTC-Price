@@ -81,7 +81,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Navbar__ = __webpack_require__("./components/Navbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("next/head");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
-var _jsxFileName = "/root/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Layout.js";
+var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Layout.js";
 
 
 
@@ -90,24 +90,37 @@ var Layout = function Layout(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     }
-  }, "BTC-Price")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Navbar__["a" /* default */], {
+  }, "BTC - Price"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "https://bootswatch.com/4/cerulean/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 9
     }
-  }), props.children);
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Navbar__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, props.children));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Layout);
@@ -118,70 +131,116 @@ var Layout = function Layout(props) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
-var _jsxFileName = "/root/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Navbar.js";
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Navbar.js";
 
 
 
 var Navbar = function Navbar() {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
+    className: "navbar navbar-expand navbar-dark bg-dark mb-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
-    },
-    className: "jsx-3469943502"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("ul", {
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
-    },
-    className: "jsx-3469943502"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    className: "jsx-3469943502"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "navbar-brand",
     href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/2000px-Bitcoin.svg.png",
+    style: {
+      width: '40px',
+      height: '40px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
-    },
-    className: "jsx-3469943502"
-  }, "Index"))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    className: "jsx-3469943502"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
-    href: "/about",
+    }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "collapse navbar-collapse",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+    className: "navbar-nav ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    className: "jsx-3469943502"
-  }, "About")))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "3469943502",
-    css: "ul.jsx-3469943502{background:#333;color:#fff;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}ul.jsx-3469943502 li.jsx-3469943502{font-size:18px;margin-right:20px;}ul.jsx-3469943502 li.jsx-3469943502 a.jsx-3469943502{color:#fff;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvTmF2YmFyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFnQixBQUc2QixBQU1ELEFBSUosV0FDVSxJQUpILENBTlAsV0FDSyxNQU1wQixVQUxpQixrQkFVakIsd0RBVEEiLCJmaWxlIjoiY29tcG9uZW50cy9OYXZiYXIuanMiLCJzb3VyY2VSb290IjoiL3Jvb3QvTXktRmlsZXMvQ29kZVNwYWNlL1dlYi1BcHBsaWNhdGlvbnMvSmF2YXNjcmlwdC1BcHBsaWNhdGlvbnMvU2VydmVyLVNpZGUtUmVuZGVyaW5nL05leHQtanMvQlRDUHJpY2UiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuXG5jb25zdCBOYXZiYXIgPSAoKSA9PiAoXG4gICAgPGRpdj5cbiAgICA8dWw+XG4gICAgPGxpPjxMaW5rIGhyZWY9Jy8nPjxhPkluZGV4PC9hPjwvTGluaz48L2xpPlxuICAgIDxsaT48TGluayBocmVmPScvYWJvdXQnPjxhPkFib3V0PC9hPjwvTGluaz48L2xpPlxuICAgIDwvdWw+XG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgICB1bHtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6ICMzMzM7XG4gICAgICAgICAgICBjb2xvcjogI2ZmZjtcbiAgICAgICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICB9XG4gICAgICAgIHVsIGxpe1xuICAgICAgICAgICAgZm9udC1zaXplOiAxOHB4O1xuICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAgICAgICB9XG4gICAgICAgIHVsIGxpIGF7XG4gICAgICAgICAgICBjb2xvcjogI2ZmZjtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIFxuICAgICAgICB9XG4gICAgYH1cbiAgICA8L3N0eWxlPlxuICAgIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTmF2YmFyOyJdfQ== */\n/*@ sourceURL=components/Navbar.js */"
-  }));
+      lineNumber: 8
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "nav-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "Home"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "nav-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, "About")))))))
+  /*<ul>
+  <li><Link href='/'><a>Index</a></Link></li>
+  <li><Link href='/about'><a>About</a></Link></li>
+  </ul>
+  <style jsx>{`
+      ul{
+          background: #333;
+          color: #fff;
+          list-style: none;
+          display: flex;
+      }
+      ul li{
+          font-size: 18px;
+          margin-right: 20px;
+      }
+      ul li a{
+          color: #fff;
+          text-decoration: none;
+  
+      }
+  `}
+  </style> */
+  ;
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Navbar);
@@ -196,7 +255,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__("./components/Layout.js");
-var _jsxFileName = "/root/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/pages/about.js";
+var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/pages/about.js";
 
 
 
@@ -207,16 +266,25 @@ var About = function About() {
       lineNumber: 4
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "jumbotron",
+    style: {
+      width: '80%',
+      margin: '0 auto'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    style: {
+      textAlign: 'center',
+      fontFamily: 'forte'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, "About Us page")));
+  }, "This is a React Application with server side rendering capability as provided by Next.js")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -249,13 +317,6 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ })
 
