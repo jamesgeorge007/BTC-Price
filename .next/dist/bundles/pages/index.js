@@ -78,7 +78,7 @@ module.exports =
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/BitcoinPrice.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\BitcoinPrice.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -248,7 +248,7 @@ function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Navbar__ = __webpack_require__("./components/Navbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("next/head");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Layout.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Layout.js";
 
 
 
@@ -287,7 +287,26 @@ var Layout = function Layout(props) {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, props.children));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    style: {
+      textAlign: 'center',
+      fontFamily: 'times'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, "BTC-Price"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), props.children));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Layout);
@@ -302,7 +321,7 @@ var Layout = function Layout(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Navbar.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Navbar.js";
 
 
 
@@ -428,7 +447,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Layout__ = __webpack_require__("./components/Layout.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_BitcoinPrice__ = __webpack_require__("./components/BitcoinPrice.js");
 
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/pages/index.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\pages\\index.js";
 
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } } function _next(value) { step("next", value); } function _throw(err) { step("throw", err); } _next(); }); }; }
@@ -448,30 +467,11 @@ var Index = function Index(props) {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h1", {
-    style: {
-      textAlign: 'center',
-      fontFamily: 'times'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, "BTC-Price"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }), " ", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_BitcoinPrice__["a" /* default */], {
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_BitcoinPrice__["a" /* default */], {
     bpi: props.bpi,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     }
   })));
 };

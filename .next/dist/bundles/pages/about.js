@@ -81,7 +81,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Navbar__ = __webpack_require__("./components/Navbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("next/head");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Layout.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Layout.js";
 
 
 
@@ -120,7 +120,26 @@ var Layout = function Layout(props) {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, props.children));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    style: {
+      textAlign: 'center',
+      fontFamily: 'times'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, "BTC-Price"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), props.children));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Layout);
@@ -135,7 +154,7 @@ var Layout = function Layout(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Navbar.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Navbar.js";
 
 
 
@@ -255,7 +274,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__("./components/Layout.js");
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/pages/about.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\pages\\about.js";
 
 
 
@@ -268,23 +287,29 @@ var About = function About() {
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "jumbotron",
     style: {
-      width: '80%',
-      margin: '0 auto'
+      width: '100%'
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    className: "lead",
     style: {
-      textAlign: 'center',
-      fontFamily: 'forte'
+      fontSize: '2em',
+      textAlign: 'left'
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, "This is a React Application with server side rendering capability as provided by Next.js")));
+  }, "About"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: "lead",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, "Shows the current price of BitCoin from an API using server side rendering capability as provided by Next-js.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);

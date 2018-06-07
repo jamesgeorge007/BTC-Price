@@ -11,6 +11,8 @@ const Layout = (props) => ( <div>
     </Head>
     <Navbar />
     <div className="container">
+    <h1 style={{textAlign:'center', fontFamily: 'times'}}>BTC-Price</h1>
+    <br /> <br />
     { props.children }
     </div>
     </div>

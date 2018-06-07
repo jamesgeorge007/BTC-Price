@@ -10,7 +10,7 @@ module.exports =
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/BitcoinPrice.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\BitcoinPrice.js";
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -193,8 +193,8 @@ var _default = BitcoinPrice;
     return;
   }
 
-  reactHotLoader.register(BitcoinPrice, "BitcoinPrice", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/BitcoinPrice.js");
-  reactHotLoader.register(_default, "default", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/BitcoinPrice.js");
+  reactHotLoader.register(BitcoinPrice, "BitcoinPrice", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\BitcoinPrice.js");
+  reactHotLoader.register(_default, "default", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\BitcoinPrice.js");
   leaveModule(module);
 })();
 
@@ -212,7 +212,7 @@ var _default = BitcoinPrice;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Navbar__ = __webpack_require__("./components/Navbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("./node_modules/next/head.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Layout.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Layout.js";
 
 
 (function () {
@@ -258,7 +258,26 @@ var Layout = function Layout(props) {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, props.children));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    style: {
+      textAlign: 'center',
+      fontFamily: 'times'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, "BTC-Price"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }), props.children));
 };
 
 var _default = Layout;
@@ -274,8 +293,8 @@ var _default = Layout;
     return;
   }
 
-  reactHotLoader.register(Layout, "Layout", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Layout.js");
-  reactHotLoader.register(_default, "default", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Layout.js");
+  reactHotLoader.register(Layout, "Layout", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Layout.js");
+  reactHotLoader.register(_default, "default", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Layout.js");
   leaveModule(module);
 })();
 
@@ -292,7 +311,7 @@ var _default = Layout;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Navbar.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Navbar.js";
 
 
 (function () {
@@ -420,8 +439,8 @@ var _default = Navbar;
     return;
   }
 
-  reactHotLoader.register(Navbar, "Navbar", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Navbar.js");
-  reactHotLoader.register(_default, "default", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/components/Navbar.js");
+  reactHotLoader.register(Navbar, "Navbar", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Navbar.js");
+  reactHotLoader.register(_default, "default", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\components\\Navbar.js");
   leaveModule(module);
 })();
 
@@ -1378,7 +1397,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Layout__ = __webpack_require__("./components/Layout.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_BitcoinPrice__ = __webpack_require__("./components/BitcoinPrice.js");
 
-var _jsxFileName = "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/pages/index.js";
+var _jsxFileName = "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\pages\\index.js";
 
 
 (function () {
@@ -1404,30 +1423,11 @@ var Index = function Index(props) {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("h1", {
-    style: {
-      textAlign: 'center',
-      fontFamily: 'times'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, "BTC-Price"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }), " ", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_BitcoinPrice__["a" /* default */], {
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_BitcoinPrice__["a" /* default */], {
     bpi: props.bpi,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     }
   })));
 };
@@ -1476,8 +1476,8 @@ var _default = Index;
     return;
   }
 
-  reactHotLoader.register(Index, "Index", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/pages/index.js");
-  reactHotLoader.register(_default, "default", "/home/james-the-hacker/My-Files/CodeSpace/Web-Applications/Javascript-Applications/Server-Side-Rendering/Next-js/BTCPrice/pages/index.js");
+  reactHotLoader.register(Index, "Index", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\pages\\index.js");
+  reactHotLoader.register(_default, "default", "E:\\Projects and Codes\\Java Script Applications\\React JS\\Next JS\\BTC-Price\\pages\\index.js");
   leaveModule(module);
 })();
 

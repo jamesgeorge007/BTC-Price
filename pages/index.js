@@ -5,8 +5,6 @@ import BitcoinPrice from '../components/BitcoinPrice';
 const Index = (props) => (
     <Layout>
     <div>
-        <h1 style={{textAlign:'center', fontFamily: 'times'}}>BTC-Price</h1>
-        <br /> <br />
         <BitcoinPrice bpi={props.bpi} />
     </div>
     </Layout>
