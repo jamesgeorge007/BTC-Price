@@ -2,6 +2,10 @@
 
 This web app shows the current price of Bitcoin, made while learning Next-js which offers server side rendering capability to React.js
 
+## Have a look
+
+![image](https://github.com/jamesgeorge007/BTC-Price/blob/master/assets/image.JPG)
+
 # Instructions
 
 - Clone the repository
