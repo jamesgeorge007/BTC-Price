@@ -11,8 +11,9 @@
 
 - Clone the repository
 - Navigate to the project directory
-- Run ` ` ` npm install ` ` `
-- Fire up your browser and visit localhost:3000 (default)
+- Run ``` npm install ```
+- Now run ```npm run dev```
+- Fire up your browser and visit ```localhost:3000``` 
 - That's it!
 
 
