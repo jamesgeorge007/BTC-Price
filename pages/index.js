@@ -1,22 +1,24 @@
-import Fetch from 'isomorphic-unfetch';
-import Layout from '../components/Layout';
-import BitcoinPrice from '../components/BitcoinPrice';
+import Fetch from "isomorphic-unfetch";
+import Layout from "../components/Layout";
+import BitcoinPrice from "../components/BitcoinPrice";
 
 const Index = (props) => (
-    <Layout>
+  <Layout>
     <div>
-        <BitcoinPrice bpi={props.bpi} />
+      <BitcoinPrice bpi={props.bpi} />
     </div>
-    </Layout>
+  </Layout>
 );
 
 Index.getInitialProps = async () => {
-  const result = await fetch('http://api.coindesk.com/v1/bpi/currentprice.json');
+  const result = await fetch(
+    "http://api.coindesk.com/v1/bpi/currentprice.json"
+  );
   const data = await result.json();
 
   return {
-    bpi: data.bpi
+    bpi: data.bpi,
   };
-}
+};
 
 export default Index;

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write */**.js",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -16,5 +17,8 @@
     "next": "^7.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
